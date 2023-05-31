@@ -1,0 +1,331 @@
+body
+{
+	background:  #F1F9F7;
+}
+
+.dropdown
+{
+	margin: 0 auto;
+
+}
+.logo
+{
+	height: 50px;
+	width: 170px;
+}
+nav
+{ 
+	height: 50px;
+		background: white;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+nav ul
+{   padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 60px;
+	font-family:  cursive;
+}
+nav ul li
+{
+	background: white;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a
+{
+display: block;
+padding: 0 15px;
+color: black;
+text-decoration:none ;
+line-height: 50px;
+font-size: 15px;
+font-weight: bold;
+}
+nav ul li a:hover
+{
+	background:   #960234;
+	color: white;
+
+}
+nav ul ul
+{
+	position: absolute;
+	top: 51px;
+	display: none;
+}
+nav ul li:hover ul{
+
+	display: block;
+
+}
+nav ul ul li
+{
+	width:160px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+
+
+nav ul ul ul li
+{
+	position: relative;
+	top: 60px;
+	left: 150px;
+
+}
+.pre
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: stretch;
+}
+
+.staduims
+{
+	position: relative;
+	margin: 50px;
+	margin-right: ;
+	margin-left: 0;
+	
+}
+
+.slider
+{
+	width: 1367px;
+	height: 400px;
+	background: url(stade1.jpg);
+	margin: 200px;
+	animation: slide 20s infinite;
+	margin: 50px;
+	margin-left:-5%;
+	margin-right: 0;
+	
+
+
+}
+
+@keyframes slide
+{
+	25%
+	{
+		background: url(974.png);
+	}
+	50%
+	{
+		background: url(stade2.jpg);
+	}
+	75%
+	{
+		background: url(stade3.jpg) ;
+
+	}
+	100%
+	{
+		background: url(stade4.png);
+	}
+}
+
+
+
+
+
+
+.myfooter
+{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+
+
+}
+.fb 
+{
+	display: flex;
+
+}
+.fb ul{
+	padding: 20px;
+	display: flex;
+	width: 300px;
+	height: 35px;
+	margin: auto;
+
+
+}
+.sm
+{list-style: none;
+}
+.sm a{
+	padding: 10px 20px;
+	font-size: 30px;
+	color: grey;
+	transition: all .25s;
+
+}
+
+.outer
+{
+	padding: 10px;
+	text-align: center;
+	color: grey;
+	font-size: 13px;
+	background-color:white ;
+
+}
+
+.sm a:hover
+{
+	color:  #960234;;
+}
+.container1
+{
+	width: 70%;
+	margin: 50px auto;
+	padding: 10px;
+}
+ .box1 p
+{
+	width:70% ;
+	padding: 100px;
+	margin: 100px;
+
+	background: #DDE0E0;
+	margin-top: 100px;
+	border-radius:10px ;
+	box-shadow: 0 0 10pc -3px rgba(0, 0, 0,0.1);
+	border: 1 px ;
+	color: #4C5956;
+	font-size: 20px;
+	font-family: arial;
+
+
+}   
+b 
+{
+	color:#960234 ;
+}
+
+
+
+
+.youtube
+{
+	margin-left: 29.5%;
+	margin-bottom: 50px;
+}
+.standings
+{
+margin: 100px;
+  max-width: 80%;
+  min-width: 80%;
+	  background-color: #741919;
+     margin-bottom:120px ;
+padding: 50px;
+  position: relative;
+  padding-top: 3rem;
+background-image: url(background.png) ;
+}
+.group-card
+{
+   width: 69vw;
+    margin: 0 auto;
+    display: flex;
+justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.group-table
+{margin-top:0 ;
+	margin-bottom: 30px;
+	margin: 20px;
+}
+td img
+{
+	    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    box-shadow:0px 2px 5px #8f1739;
+}
+
+
+
+
+
+table {
+    font-family: 'cursive;', sans-serif;
+    width: 200px;
+     border-collapse: collapse; 
+
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+text-align: center;}
+th,
+td {
+    padding: 5px;
+    background-color: #dbbb6c;
+    color: black;
+    font-weight: bold;}
+    th {
+    text-align: center;
+}
+tr:hover {
+
+    
+    cursor: pointer;
+    color: grey;
+}
+
+
+table
+{
+	border-radius: 20px;
+ border: none;
+}
+.flag
+{
+	background-color: white;
+}
+.group-container h1
+{ position: absolute;
+	top: 10px;
+	left: 380px;
+	text-align: center;
+	color: white;
+	font-size: 90px;
+	margin-bottom: 0;
+	font-family: cursive;
+}
+.logo1
+{
+	position: relative;
+	top: 0px;
+	left: 240px;
+	top:0px;
+}
+th
+{ background-color: black;
+	color: white;
+
+}
+.standings a
+{
+	text-decoration: none;
+	color: black;
+}
+.standings a:hover
+{
+	background-color:grey ;
+	width: 50px;
+}

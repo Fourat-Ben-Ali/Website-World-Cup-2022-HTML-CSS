@@ -1,0 +1,279 @@
+body
+{
+	height: 100vh;
+	width: 100vw;
+background-color: lightgrey;
+opacity:0.9 ;
+
+
+}
+.nav__listlogo
+{
+	margin-right:auto ;
+
+
+
+
+}
+a
+{
+	text-decoration: none;
+	color:  black
+}
+.logo
+{
+	height: 60px;
+	width: 150px;
+}
+nav {
+  font-family: Montserrat, sans-serif;
+background-color: white;
+}
+.nav
+{
+position: fixed;
+width: 100vw;
+
+}
+.nav__list{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 30px;
+	margin :0 6rem;
+}
+li.nav__listitem::after
+{
+	content: "";
+	display: block;
+	position: absoulute;
+	width: 0%;
+	height: 0.5rem;
+	height: 3px;
+	background-color: #901a32;
+	border-radius: 0.2rem;
+	transition: width 0.2s ease-in-out;
+} 
+li.nav__listitem:hover::after
+{
+	width: 100%;
+}
+.nav__listitem
+{
+	list-style: none;
+	font-weight: bold;
+	position: relative;
+	padding: 1.5 rem 1 rem;
+	cursor: pointer;
+
+}
+.nav__listitem:hover ul,.nav__listitem:focus ul
+{
+	opacity: 1;
+	visibility: visible;
+}
+
+.nav__listitemdrop
+{
+position: absolute;
+top:  20px;
+left: -0.2rem;
+box-shadow: 0 0 10px gray;
+background-color: white;
+border-radius: 0.2 rem;
+width: 12rem;
+padding: 1rem;
+display: flex;
+flex-direction: column;
+border-radius: 0.2rem;
+gap: 0.5 rem;
+opacity: 0;
+visibility: hidden;
+transition: opacity 200ms ease-in-out;
+box-sizing: content-box;
+width: 100%;
+}
+li 
+{
+list-style:none;
+padding: 0.5 rem 0.4rem;
+border-radius: 0.1rem;
+transition: background-color 200 200 ms ease-in-out;
+
+}
+.nav__listitemdrop :hover  , .nav__listitemdrop:focus 
+{
+	background-color:#901a32 ;
+	color: white;
+
+
+}
+footer
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "segoe UI";
+	font-weight: 400;
+	background-color: whitesmoke;
+}
+.footer 
+{
+	padding: 20px 0;
+	
+
+}
+.footer .social
+{
+		text-align: center;
+	padding-bottom: 10px ;
+	color: grey;
+
+}
+.footer .social a
+{
+	font-size:24px;
+	color: gray;
+	border-radius: 1px solid #ccc;
+	width: 40px;
+	height: 40 px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 0 8px;
+	opacity: 0.75;
+}
+.footer .social a:hover
+{
+
+	opacity: 0.9;
+}
+.footer ul{
+	margin-top:0;
+	padding: 0;
+	list-style: none;
+	font-size: 1px;
+	line-height:1.6 ;
+	margin-bottom: 0;
+	text-align: center;
+}
+.footer ul li a{
+	color: grey;
+	text-decoration: none;
+	font-size: 12px;
+	opacity: 0.8;
+}
+.footer ul li{
+display:inline-block ;
+padding: 0 15px;
+}
+.footer ul li a:hover{
+	
+	opacity: 1;
+}
+.footer .Copyright
+{
+	margin-top:15px ;
+	text-align: center;
+	font-size: 15px ;
+	color: grey;
+}
+.footer
+{
+	position: absolute;
+	bottom: 0;
+	min-width: 100vw;
+	height:100px ;
+	background-color: white;
+	position: fixed;
+}
+.standings
+{
+	position: relative;
+	top: 150px;
+	left: 160px;
+	bottom: 400px;
+  max-width: 80%;
+  min-width: 80%;
+	  background-color: #972222;
+     margin-bottom:120px ;
+
+  position: relative;
+  padding-top: 3rem;
+}
+.group-card
+{
+   width: 69vw;
+    margin: 0 auto;
+    display: flex;
+justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+td img
+{
+	    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    box-shadow:0px 2px 5px #8f1739;
+}
+.flag
+{
+	
+
+}
+caption{
+    background-color:#000000;
+    color: #ffffff;
+    border: none ;
+    border-radius: 30px;
+    width: 40%;
+   align-items: center;
+   position: relative;
+   left: 55px;
+     bottom: 3px;
+     font-weight: bold;
+     padding: 4px;
+     margin-bottom: 5px;a
+
+
+}
+
+table {
+    font-family: 'cursive;', sans-serif;
+    width: 200px;
+     border-collapse: collapse; 
+
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+text-align: center;}
+th,
+td {
+    padding: 5px;
+    background-color: #dbbb6c;
+    color: black;
+    font-weight: bold;}
+    th {
+    text-align: center;
+}
+tr:hover {
+
+    
+    cursor: pointer;
+    color: grey;
+}
+
+
+table
+{
+	border-radius: 20px;
+ border: none;
+}
+.flag
+{
+	background-color: white;
+}

@@ -1,0 +1,236 @@
+body
+{
+	background:  #F1F9F7;
+}
+
+.dropdown
+{
+	margin: 0 auto;
+
+}
+.logo
+{
+	height: 50px;
+	width: 170px;
+}
+nav
+{ 
+	height: 50px;
+		background: white;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+nav ul
+{   padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 60px;
+	font-family:  cursive;
+}
+nav ul li
+{
+	background: white;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a
+{
+display: block;
+padding: 0 15px;
+color: black;
+text-decoration:none ;
+line-height: 50px;
+font-size: 15px;
+font-weight: bold;
+}
+nav ul li a:hover
+{
+	background:   #960234;
+	color: white;
+
+}
+nav ul ul
+{
+	position: absolute;
+	top: 51px;
+	display: none;
+}
+nav ul li:hover ul{
+
+	display: block;
+
+}
+nav ul ul li
+{
+	width:160px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+
+
+nav ul ul ul li
+{
+	position: relative;
+	top: 60px;
+	left: 150px;
+
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .lieu .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.main .lieu .card .desc{
+   flex: 0 0 30%;
+   padding: 20px;
+   background-color:#960234;
+   color:#fff;
+}
+.main .lieu .card .right img{
+    height:300px;
+    width: 400px;
+    margin-top: 5px;
+}
+.lieuc{
+	background: #eee;
+}
+
+.lieuc
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.lieuc
+{
+	font-family: verdana;
+}
+
+    
+
+
+}               
+.myfooter
+{
+	margin: 0;
+	padding: 0;
+	background-color: #365043;
+
+}
+.fb 
+{
+	display: flex;
+
+}
+.fb ul{
+	padding: 20px;
+	display: flex;
+	width: 300px;
+	height: 35px;
+	margin: auto;
+
+
+}
+.sm
+{list-style: none;
+}
+.sm a{
+	padding: 10px 20px;
+	font-size: 30px;
+	color: #B6D8D1;
+	transition: all .25s;
+
+}
+
+.outer
+{
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	background-color:#364A40 ;
+
+}
+
+.sm a:hover
+{
+	color: #387D70;
+}
+
+
+
+
+.myfooter
+{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+
+
+}
+.fb 
+{
+	display: flex;
+
+}
+.fb ul{
+	padding: 20px;
+	display: flex;
+	width: 300px;
+	height: 35px;
+	margin: auto;
+
+
+}
+.sm
+{list-style: none;
+}
+.sm a{
+	padding: 10px 20px;
+	font-size: 30px;
+	color: grey;
+	transition: all .25s;
+
+}
+
+.outer
+{
+	padding: 10px;
+	text-align: center;
+	color: grey;
+	font-size: 13px;
+	background-color:white ;
+
+}
+
+.sm a:hover
+{
+	color: #A77A85;
+}
+ 
+
+
+
+.desc a{
+	text-decoration: none;
+	color: #dbbb6c;;
+	font-weight: bold;
+	font-family: cursive;
+	font-size:  25px;
+
+}
+.desc a:hover
+{
+	color: black;
+}
